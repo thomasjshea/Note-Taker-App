@@ -9,6 +9,8 @@
   "author": "Thomas Shea",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "heroku": "^8.0.4",
+    "uuid": "^9.0.0"
   }
 }
