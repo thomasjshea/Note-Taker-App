@@ -6,7 +6,7 @@ const { v4: uuidv4 } = require('uuid')
 
 // import the db.json package
 const notes = require('./db/db.json')
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 // Initialize the app variable
 const app = express();
