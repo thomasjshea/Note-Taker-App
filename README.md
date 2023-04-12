@@ -8,28 +8,28 @@ This application allows the user to input a note title, and a text description t
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+There is no installation necessary. 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+To use this application, you will need to enter the URL [https://mighty-sierra-93576.herokuapp.com/](https://mighty-sierra-93576.herokuapp.com/) into your browser
+    
+From the homepage, click the "Get Started" button. Any old notes will load, and you will have the ability to enter and save new notes. 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+![screenshot1](./Assets/Images/Screenshot-1.png)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![screenshot2](./Assets/Images/Screenshot-2.png)
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+This application uses the following 3rd party applications:
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+ - Express.js
+ - heroku
+ - uuid
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+This application does not contain a license.
 
 
