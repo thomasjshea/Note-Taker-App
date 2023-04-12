@@ -2,7 +2,7 @@
 const express = require('express')
 const fs = require('fs');
 const path = require('path')
-const uuid = require('./helpers/uuid');
+const { v4: uuidv4 } = require('uuid')
 
 // import the db.json package
 const notes = require('./db/db.json')
@@ -33,7 +33,7 @@ app.post('/api/notes', (req, res) => {
         const newNote = {
             title,
             text,
-            note_id: uuid(),
+            note_id: uuidv4(),
         };
 
         fs.readFile('./db/db.json', 'utf8', (err, data) => {
